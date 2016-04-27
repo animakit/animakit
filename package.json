@@ -1,8 +1,12 @@
 {
   "name": "animakit-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animakit core. Not for self-use.",
   "main": "lib/index.js",
+  "files": [
+    "*.md",
+    "lib"
+  ],
   "scripts": {
     "build": "babel --preset es2015 src/ --out-dir lib/",
     "prepublish": "npm run build"
