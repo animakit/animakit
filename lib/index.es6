@@ -24,3 +24,16 @@ export function genUniqueString(len = 5) {
 export function isEqual(prevState, nextState) {
   return lodashIsEqual(prevState, nextState);
 }
+
+export function getParentOffset(node, parentNode) {
+  const offset = { left: node.offsetLeft, top: node.offsetTop };
+
+  let parent = node.offsetParent;
+  while (parent !== parentNode) {
+    offset.left += parentNode.offsetLeft;
+    offset.top += parentNode.offsetTop;
+    parent = parentNode.offsetParent;
+  }
+
+  return offset;
+}
