@@ -30,8 +30,8 @@ export function getParentOffset(node, parentNode) {
 
   let parent = node.offsetParent;
   while (parent !== parentNode) {
-    offset.left += parentNode.offsetLeft;
-    offset.top += parentNode.offsetTop;
+    offset.left += parent.offsetLeft;
+    offset.top += parent.offsetTop;
     parent = parent.offsetParent;
   }
 
