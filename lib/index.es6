@@ -32,7 +32,7 @@ export function getParentOffset(node, parentNode) {
   while (parent !== parentNode) {
     offset.left += parentNode.offsetLeft;
     offset.top += parentNode.offsetTop;
-    parent = parentNode.offsetParent;
+    parent = parent.offsetParent;
   }
 
   return offset;
