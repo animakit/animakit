@@ -1,5 +1,9 @@
 import { isEqual as lodashIsEqual } from 'lodash';
 
+export function isEqual(prevState, nextState) {
+  return lodashIsEqual(prevState, nextState);
+}
+
 export function isPropertySupported(name, value) {
   const propName = name;
 
@@ -17,6 +21,18 @@ export function isPropertySupported(name, value) {
   return propValue === value;
 }
 
-export function isEqual(prevState, nextState) {
-  return lodashIsEqual(prevState, nextState);
+export function getScrollbarWidth() {
+  const outerDiv = document.createElement('div');
+  const innerDiv = document.createElement('div');
+
+  outerDiv.style.overflow = 'scroll';
+
+  document.body.insertBefore(outerDiv, null);
+  outerDiv.insertBefore(innerDiv, null);
+
+  const scrollbarWidth = outerDiv.offsetWidth - innerDiv.offsetWidth;
+
+  document.body.removeChild(outerDiv);
+  
+  return scrollbarWidth;
 }
