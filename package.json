@@ -1,6 +1,6 @@
 {
   "name": "animakit-core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Animakit core. Not for self-use.",
   "main": "lib/index.js",
   "files": [
@@ -17,11 +17,12 @@
     "type": "git",
     "url": "https://github.com/animakit/animakit-core"
   },
+  "homepage": "https://animakit.github.io",
   "dependencies": {
-    "lodash": "^4.13.1"
+    "lodash": "^4.14.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.10.1",
+    "babel-cli": "^6.11.4",
     "babel-preset-es2015": "^6.9.0"
   }
 }

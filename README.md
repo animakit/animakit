@@ -1,3 +1,3 @@
 # AnimakitCore
 Part of Animakit.
-See http://askd.github.io/animakit for more details
+See https://animakit.github.io for more details
