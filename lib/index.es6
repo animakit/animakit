@@ -1,8 +1,6 @@
-import { isEqual as lodashIsEqual } from 'lodash.isequal';
+import isEqual from 'lodash.isequal';
 
-export function isEqual(prevState, nextState) {
-  return lodashIsEqual(prevState, nextState);
-}
+export { isEqual };
 
 export function isPropertySupported(name, value) {
   const propName = name;
