@@ -19,7 +19,7 @@
   },
   "homepage": "https://animakit.github.io",
   "dependencies": {
-    "lodash": "^4.15.0"
+    "lodash.isequal": "^4.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
