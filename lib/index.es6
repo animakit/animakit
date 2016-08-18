@@ -1,4 +1,4 @@
-import isEqual as lodashIsEqual from 'lodash.isequal';
+import { isEqual as lodashIsEqual } from 'lodash.isequal';
 
 export function isEqual(prevState, nextState) {
   return lodashIsEqual(prevState, nextState);
@@ -33,6 +33,6 @@ export function getScrollbarWidth() {
   const scrollbarWidth = outerDiv.offsetWidth - innerDiv.offsetWidth;
 
   document.body.removeChild(outerDiv);
-  
+
   return scrollbarWidth;
 }
