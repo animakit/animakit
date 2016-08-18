@@ -1,4 +1,4 @@
-import { isEqual as lodashIsEqual } from 'lodash';
+import isEqual as lodashIsEqual from 'lodash.isequal';
 
 export function isEqual(prevState, nextState) {
   return lodashIsEqual(prevState, nextState);
