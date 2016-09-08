@@ -40,7 +40,7 @@ Repository on GitHub: https://github.com/animakit/animakit-elastic
 
 ### Slider
 
-React component for the blocks sliding.
+React component for the blocks sliding. Supports both horizontal and vertical modes and the ability to loop and skip slides during animation.
 
 Repository on GitHub: https://github.com/animakit/animakit-slider
 
