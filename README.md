@@ -38,6 +38,12 @@ React component for smooth resizing of content blocks.
 
 Repository on GitHub: https://github.com/animakit/animakit-elastic
 
+### Slider
+
+React component for the blocks sliding.
+
+Repository on GitHub: https://github.com/animakit/animakit-slider
+
 
 ## FAQ
 
