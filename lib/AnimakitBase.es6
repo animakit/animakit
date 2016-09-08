@@ -7,9 +7,12 @@ export default class AnimakitBase extends React.Component {
     duration: React.PropTypes.number,
   };
 
+  static defaultProps = {
+    duration: 500,
+  };
+
   state = {
     animation: false,
-    duration:  500,
     winHeight: 0,
   };
 
@@ -78,6 +81,10 @@ export default class AnimakitBase extends React.Component {
     return listeners;
   }
 
+  getDuration() {
+    return this.props.duration;
+  }
+
   getScrollbarWidth() {
     return utils.getScrollbarWidth();
   }
@@ -112,7 +119,7 @@ export default class AnimakitBase extends React.Component {
       this.setState({
         animation: false,
       });
-    }, this.props.duration);
+    }, this.getDuration());
   }
 
   cancelAnimationReset() {
