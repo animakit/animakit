@@ -1,8 +1,6 @@
 import isEqual from 'lodash.isequal';
 
-export { isEqual };
-
-export function isPropertySupported(name, value) {
+function isPropertySupported(name, value) {
   const propName = name;
 
   const element = document.createElement('p');
@@ -19,7 +17,7 @@ export function isPropertySupported(name, value) {
   return propValue === value;
 }
 
-export function getScrollbarWidth() {
+function getScrollbarWidth() {
   const outerDiv = document.createElement('div');
   const innerDiv = document.createElement('div');
 
@@ -34,3 +32,10 @@ export function getScrollbarWidth() {
 
   return scrollbarWidth;
 }
+
+export {
+  isEqual,
+  isPropertySupported,
+  getScrollbarWidth,
+
+};
