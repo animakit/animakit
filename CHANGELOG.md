@@ -12,3 +12,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## 2.0.0-beta
 * Release AnimakitBase
+
+## 2.0.0-beta.1
+* Method getDuration() for animation timeout
