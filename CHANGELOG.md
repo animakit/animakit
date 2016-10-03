@@ -10,8 +10,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 1.1.0
 * Replace lodash with lodash.isequal
 
-## 2.0.0-beta
+## 2.0.0
 * Release AnimakitBase
-
-## 2.0.0-beta.1
 * Method getDuration() for animation timeout
