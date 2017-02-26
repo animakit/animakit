@@ -2,19 +2,14 @@ import React      from 'react';
 import * as utils from './utils';
 
 export default class AnimakitBase extends React.Component {
-  static propTypes = {
-    children: React.PropTypes.any,
-    duration: React.PropTypes.number,
-  };
+  constructor(props) {
+    super(props);
 
-  static defaultProps = {
-    duration: 500,
-  };
-
-  state = {
-    animation: false,
-    winHeight: 0,
-  };
+    this.state = {
+      animation: false,
+      winHeight: 0,
+    };
+  }
 
   componentWillMount() {
     this.animationResetTO = null;
@@ -162,3 +157,12 @@ export default class AnimakitBase extends React.Component {
     return false;
   }
 }
+
+AnimakitBase.propTypes = {
+  children: React.PropTypes.any,
+  duration: React.PropTypes.number,
+};
+
+AnimakitBase.defaultProps = {
+  duration: 500,
+};
