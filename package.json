@@ -1,6 +1,6 @@
 {
   "name": "animakit-core",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Animakit core",
   "main": "index.js",
   "files": [
