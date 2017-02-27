@@ -3,7 +3,7 @@ React components developed to make your site more friendly ;)
 
 Just wrap your existing UI with Animakit components to get transitions for better UX.
 
-> **Note:** This repository contains Animakit dependency. Each component has it own repository.
+> **Note:** This repository contains Animakit common README. Each component has it own repository.
 
 ## [Demos](https://animakit.github.io)
 
