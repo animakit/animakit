@@ -51,4 +51,4 @@ Repository on GitHub: https://github.com/animakit/animakit-slider
 No. All components are independent and developed for separate use.
 
 #### Could I request to add one more component to Animakit?
-Yes. Feel free to leave an [issue](https://github.com/animakit/animakit-core/issues) ;)
+Yes. Feel free to leave an [issue](https://github.com/animakit/animakit/issues) ;)
