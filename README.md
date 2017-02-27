@@ -1,5 +1,5 @@
 # Animakit
-React components developed to make your site more friendly ;)
+React components crafted to make your site more friendly ;)
 
 Just wrap your existing UI with Animakit components to get transitions for better UX.
 
@@ -48,7 +48,7 @@ Repository on GitHub: https://github.com/animakit/animakit-slider
 ## FAQ
 
 #### Do I need to install the whole Animakit to use one of the components?
-No. All components are independent and developed for separate use.
+No. All components are independent and intended for separate use.
 
 #### Could I request to add one more component to Animakit?
 Yes. Feel free to leave an [issue](https://github.com/animakit/animakit/issues) ;)
