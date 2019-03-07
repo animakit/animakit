@@ -1,4 +1,9 @@
 # Animakit
+
+<aside class="warning">
+  WARNING: Currently unmaintained because of lack of interest, activity and resources
+</aside>
+
 React components crafted to make your site more friendly ;)
 
 Just wrap your existing UI with Animakit components to get transitions for better UX.
