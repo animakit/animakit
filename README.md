@@ -1,8 +1,7 @@
 # Animakit
 
-<aside class="warning">
-  WARNING: Currently unmaintained because of lack of interest, activity and resources
-</aside>
+**WARNING:** Currently unmaintained because of lack of interest, activity and resources
+
 
 React components crafted to make your site more friendly ;)
 
